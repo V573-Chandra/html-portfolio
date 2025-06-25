@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Waste Collection Service</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #0c4b33;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #0c4b33;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #0c4b33;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+    ul {
+      line-height: 1.8;
+    }
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>E-Waste Collection Service</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#items">Accepted Items</a>
+      <a href="#schedule">Schedule Pickup</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      We provide eco-friendly solutions for disposing of your electronic waste. Our mission is to promote responsible e-waste recycling and reduce environmental hazards caused by improper disposal of electronics.
+    </p>
+  </section>
+
+  <section id="items">
+    <h2>Accepted Items</h2>
+    <ul>
+      <li>Mobile Phones & Chargers</li>
+      <li>Laptops & Desktops</li>
+      <li>TVs & Monitors</li>
+      <li>Printers & Scanners</li>
+      <li>Keyboards & Mice</li>
+      <li>Old Batteries</li>
+      <li>Electronic Toys</li>
+    </ul>
+  </section>
+
+  <section id="schedule">
+    <h2>Schedule a Pickup</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" required />
+      </div>
+      <div class="form-group">
+        <label for="address">Pickup Address:</label>
+        <textarea id="address" rows="3" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="items">Items for Pickup:</label>
+        <textarea id="items" rows="3" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" required />
+      </div>
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Owner: <strong>Rameshwar Dash</strong></p>
+    <p>Phone: <a href="tel:+919861844789">+91-98618 44789</a></p>
+    <p>Email: support@ewastecollection.org</p>
+    <p>Address: 123 Green Tech Street, EcoCity, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 E-Waste Collection Service. All rights reserved.</p>
+    <p>Site owned and managed by <strong>Rameshwar Dash</strong>.</p>
+  </footer>
+</body>
+</html>
